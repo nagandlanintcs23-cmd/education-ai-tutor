@@ -15,7 +15,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return {"message": "Backend is LIVE 🚀"}
+    return {"message": "API is running"}
 
 @app.get("/ask")
 def ask(question: str):
