@@ -2,7 +2,7 @@ async function ask() {
 
 let q = document.getElementById("question").value
 
-let res = await fetch(`http://127.0.0.1:8000/ask?question=${q}`)
+let res = await fetch("https://education-ai-tutor.onrender.com/ask")
 
 let data = await res.json()
 
