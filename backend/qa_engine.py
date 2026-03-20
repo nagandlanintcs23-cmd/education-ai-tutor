@@ -1,7 +1,7 @@
 import os
-from langchain.chains import RetrievalQA
+from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain_openai import ChatOpenAI
-from vector_store import load_vectorstore
+from backend.vector_store import load_vectorstore
 
 def answer_question(query: str):
     db = load_vectorstore()
