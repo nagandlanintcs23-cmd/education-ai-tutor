@@ -8,4 +8,4 @@ langchain-openai==0.0.8
 
 chromadb==0.4.24
 pymupdf==1.24.1
-tiktoken==0.5.2
+tiktoken==0.7.0
