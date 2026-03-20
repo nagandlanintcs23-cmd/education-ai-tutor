@@ -1,6 +1,6 @@
 import os
 from fastapi import FastAPI
-from qa_engine import answer_question
+from backend.qa_engine import answer_question
 
 app = FastAPI()
 

@@ -1,7 +1,7 @@
 import os
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from vector_store import store_embeddings
+from backend.vector_store import store_embeddings
 
 
 def ingest_folder(folder_path):

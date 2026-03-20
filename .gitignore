@@ -1,5 +1,9 @@
 venv/
 vector_db/
+data/
+backend/db/
+*.pdf
+*.bin
 embeddings_db/
 __pycache__/
 *.pyc
